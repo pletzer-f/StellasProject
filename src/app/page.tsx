@@ -149,7 +149,7 @@ export default function HomePage() {
       </section>
 
       <section className="section-shell pt-0 pb-12 sm:pb-16">
-        <div className="ring-glow relative overflow-hidden rounded-[30px] border border-white/14 bg-[#0d2624] text-cream">
+        <div className="ring-glow relative overflow-hidden rounded-[30px] border border-white/14 bg-earth text-cream">
           <div className="hero-grid-overlay absolute inset-0 opacity-20" aria-hidden="true" />
           <div
             className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_15%,rgba(206,208,186,0.24),transparent_46%)]"

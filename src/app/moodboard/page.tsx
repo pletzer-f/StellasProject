@@ -12,7 +12,7 @@ export default function MoodboardPage() {
     <main className="pb-14 text-cream">
       <section className="section-shell py-10 sm:py-12">
         <div className="grid gap-4 lg:grid-cols-[1.02fr_0.98fr]">
-          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#0f2422] p-5 sm:p-6">
+          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-earth p-5 sm:p-6">
             <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Social Moodboard</p>
             <h1 className="font-heading mt-2 text-4xl leading-tight sm:text-5xl">
               Stella&apos;s full lifestyle board

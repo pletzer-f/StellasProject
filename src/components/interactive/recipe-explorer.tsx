@@ -20,7 +20,7 @@ export default function RecipeExplorer() {
   }, [activeFilter]);
 
   return (
-    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-[#0f2422] p-5 text-cream sm:p-6">
+    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-earth p-5 text-cream sm:p-6">
       <div className="mb-4 flex flex-wrap gap-2">
         {filters.map((filter) => {
           const active = activeFilter === filter;

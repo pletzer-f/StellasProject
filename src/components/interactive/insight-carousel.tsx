@@ -14,7 +14,7 @@ export default function InsightCarousel() {
   }
 
   return (
-    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-[#0f2422] p-5 text-cream sm:p-6">
+    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-earth p-5 text-cream sm:p-6">
       <div className="mb-3 flex items-center justify-between">
         <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Insight Deck</p>
         <div className="flex gap-2">

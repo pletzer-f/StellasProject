@@ -79,7 +79,7 @@ export default function ProtocolConsole({ embedded = false }: ProtocolConsolePro
 
   const shellClass = embedded
     ? "overflow-hidden rounded-[20px] border border-white/10 bg-black/12 text-cream"
-    : "ring-glow overflow-hidden rounded-[24px] border border-ink/12 bg-[#0d2624] text-cream";
+    : "ring-glow overflow-hidden rounded-[24px] border border-ink/12 bg-earth text-cream";
 
   return (
     <article className={shellClass}>

@@ -92,7 +92,7 @@ export default function CommunityMoodboardUploader() {
 
   return (
     <section className="grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
-      <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#0f2422] p-5 sm:p-6">
+      <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-earth p-5 sm:p-6">
         <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Contribute</p>
         <h2 className="font-heading mt-2 text-3xl leading-tight sm:text-4xl">Upload your lifestyle frame</h2>
         <p className="mt-2 text-sm text-cream/80">
@@ -141,7 +141,7 @@ export default function CommunityMoodboardUploader() {
             />
           </div>
 
-          {error ? <p className="text-xs text-[#ffb3b3]">{error}</p> : null}
+          {error ? <p className="text-xs text-sand">{error}</p> : null}
 
           <button
             type="submit"
@@ -155,7 +155,7 @@ export default function CommunityMoodboardUploader() {
         </form>
       </article>
 
-      <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#102622] p-4 sm:p-5">
+      <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-olive p-4 sm:p-5">
         <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Community Moodboard</p>
         <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
           {mergedFeed.map((item) => (

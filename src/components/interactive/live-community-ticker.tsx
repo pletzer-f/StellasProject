@@ -39,7 +39,7 @@ export default function LiveCommunityTicker() {
   );
 
   return (
-    <section className="border-y border-white/12 bg-[#0b211f] text-cream">
+    <section className="border-y border-white/12 bg-olive text-cream">
       <div className="section-shell py-4">
         <div className="grid gap-3 lg:grid-cols-[0.44fr_0.56fr] lg:items-center">
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">

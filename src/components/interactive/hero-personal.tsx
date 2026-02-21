@@ -71,7 +71,7 @@ export default function HeroPersonal({ insight }: { insight: Insight }) {
   }, [mode]);
 
   return (
-    <section className="relative overflow-hidden bg-[#0c1f1d] text-white">
+    <section className="relative overflow-hidden bg-earth text-white">
       <div className="hero-grid-overlay absolute inset-0 opacity-55" />
       <div className="hero-scanline absolute inset-0 opacity-20" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_10%_12%,rgba(206,208,186,0.18),transparent_42%)]" />

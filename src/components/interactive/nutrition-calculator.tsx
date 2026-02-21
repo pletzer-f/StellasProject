@@ -31,7 +31,7 @@ export default function NutritionCalculator() {
   }, [goal, weightKg]);
 
   return (
-    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-[#0f2422] p-5 text-cream sm:p-6">
+    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-earth p-5 text-cream sm:p-6">
       <div className="grid gap-5 lg:grid-cols-[1fr_0.92fr]">
         <div>
           <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">

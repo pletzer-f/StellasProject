@@ -19,7 +19,7 @@ export default function NutritionPage() {
     <main className="pb-12 text-cream">
       <section className="section-shell py-10 sm:py-12">
         <div className="grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
-          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#0f2422] p-5 sm:p-6">
+          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-earth p-5 sm:p-6">
             <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Nutrition</p>
             <h1 className="font-heading mt-2 text-4xl leading-tight sm:text-5xl">
               Real food structure, every day
@@ -51,7 +51,7 @@ export default function NutritionPage() {
           {principles.map((item) => (
             <article
               key={item.title}
-              className="hero-glass-card ring-glow rounded-[20px] border border-white/14 bg-[#102622] p-4"
+              className="hero-glass-card ring-glow rounded-[20px] border border-white/14 bg-olive p-4"
             >
               <h2 className="font-heading text-2xl">{item.title}</h2>
               <p className="mt-2 text-sm text-cream/80">{item.line}</p>

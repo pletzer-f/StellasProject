@@ -38,15 +38,15 @@ body {
 
 .tech-grid {
   background:
-    linear-gradient(to right, rgb(6 43 39 / 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(6 43 39 / 0.04) 1px, transparent 1px);
+    linear-gradient(to right, rgb(52 43 27 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(52 43 27 / 0.05) 1px, transparent 1px);
   background-size: 64px 64px;
 }
 
 .ring-glow {
   box-shadow:
-    0 12px 34px rgb(3 18 16 / 0.32),
-    inset 0 0 0 1px rgb(255 255 255 / 0.1);
+    0 12px 34px rgb(52 43 27 / 0.24),
+    inset 0 0 0 1px rgb(255 255 255 / 0.08);
 }
 
 .hero-float {
@@ -63,8 +63,8 @@ body {
 
 .panel {
   background:
-    linear-gradient(160deg, rgb(255 255 255 / 0.82), rgb(255 255 255 / 0.62)),
-    linear-gradient(0deg, rgb(206 208 186 / 0.24), rgb(206 208 186 / 0.24));
+    linear-gradient(160deg, rgb(246 242 240 / 0.9), rgb(246 242 240 / 0.72)),
+    linear-gradient(0deg, rgb(206 208 186 / 0.32), rgb(185 167 131 / 0.18));
   backdrop-filter: blur(10px);
 }
 
@@ -109,15 +109,15 @@ body {
 
 .hero-glass-card {
   background:
-    linear-gradient(160deg, rgb(22 50 46 / 0.96), rgb(12 30 27 / 0.96)),
-    linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.02));
+    linear-gradient(156deg, rgb(52 43 27 / 0.96), rgb(76 76 40 / 0.94)),
+    linear-gradient(180deg, rgb(246 242 240 / 0.05), rgb(246 242 240 / 0.02));
   backdrop-filter: blur(14px);
 }
 
 .integrated-shell {
   background:
-    linear-gradient(150deg, rgb(14 38 34 / 0.98), rgb(9 27 24 / 0.98)),
-    linear-gradient(180deg, rgb(255 255 255 / 0.04), rgb(255 255 255 / 0.01));
+    linear-gradient(150deg, rgb(52 43 27 / 0.98), rgb(76 76 40 / 0.96)),
+    linear-gradient(180deg, rgb(246 242 240 / 0.04), rgb(246 242 240 / 0.01));
 }
 
 .marquee-track {
@@ -148,7 +148,7 @@ body {
   opacity: 0;
   background:
     radial-gradient(circle at 18% 8%, rgb(206 208 186 / 0.2), transparent 42%),
-    linear-gradient(180deg, rgb(6 43 39 / 0.08), rgb(6 43 39 / 0.12));
+    linear-gradient(180deg, rgb(52 43 27 / 0.08), rgb(76 76 40 / 0.12));
   transition: opacity 0.28s ease;
 }
 
@@ -163,7 +163,7 @@ body {
   transform-origin: left;
   transform: scaleX(0.08);
   opacity: 0;
-  background: linear-gradient(90deg, rgb(76 76 40 / 0.35), rgb(6 43 39 / 0.95), rgb(185 167 131 / 0.44));
+  background: linear-gradient(90deg, rgb(52 43 27 / 0.35), rgb(76 76 40 / 0.95), rgb(185 167 131 / 0.44));
   transition: opacity 0.2s ease, transform 0.45s cubic-bezier(0.2, 0.86, 0.24, 1);
 }
 

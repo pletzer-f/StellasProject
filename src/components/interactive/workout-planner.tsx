@@ -27,7 +27,7 @@ export default function WorkoutPlanner() {
   }, [activeDays, intensity]);
 
   return (
-    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-[#0f2422] p-5 text-cream sm:p-6">
+    <article className="hero-glass-card ring-glow rounded-[26px] border border-white/14 bg-earth p-5 text-cream sm:p-6">
       <div className="grid gap-5 lg:grid-cols-[1fr_0.58fr]">
         <div className="space-y-4">
           <div>

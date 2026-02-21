@@ -19,7 +19,7 @@ export default function InsightsPage() {
     <main className="pb-12 text-cream">
       <section className="section-shell py-10 sm:py-12">
         <div className="grid gap-4 lg:grid-cols-[1.02fr_0.98fr]">
-          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#0f2422] p-5 sm:p-6">
+          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-earth p-5 sm:p-6">
             <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Insights</p>
             <h1 className="font-heading mt-2 text-4xl leading-tight sm:text-5xl">
               One practical signal each day
@@ -51,7 +51,7 @@ export default function InsightsPage() {
           {notes.map((item) => (
             <article
               key={item.label}
-              className="hero-glass-card ring-glow rounded-[20px] border border-white/14 bg-[#102622] p-4"
+              className="hero-glass-card ring-glow rounded-[20px] border border-white/14 bg-olive p-4"
             >
               <p className="text-[10px] tracking-[0.14em] uppercase text-sage">{item.label}</p>
               <p className="mt-2 text-sm text-cream/82">{item.value}</p>

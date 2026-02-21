@@ -13,7 +13,7 @@ export default function WorkoutsPage() {
     <main className="pb-12 text-cream">
       <section className="section-shell py-10 sm:py-12">
         <div className="grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
-          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#0f2422] p-5 sm:p-6">
+          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-earth p-5 sm:p-6">
             <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Workouts</p>
             <h1 className="font-heading mt-2 text-4xl leading-tight sm:text-5xl">
               This week&apos;s training structure
@@ -45,7 +45,7 @@ export default function WorkoutsPage() {
           {workoutPrograms.map((program) => (
             <article
               key={program.title}
-              className="hero-glass-card ring-glow overflow-hidden rounded-[22px] border border-white/14 bg-[#102622]"
+              className="hero-glass-card ring-glow overflow-hidden rounded-[22px] border border-white/14 bg-olive"
             >
               <div className="relative h-52">
                 <Image

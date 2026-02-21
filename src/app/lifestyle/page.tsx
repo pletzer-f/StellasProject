@@ -29,7 +29,7 @@ export default function LifestylePage() {
     <main className="pb-14 text-cream">
       <section className="section-shell py-10 sm:py-12">
         <div className="grid gap-4 lg:grid-cols-[1.08fr_0.92fr]">
-          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#0f2422] p-5 sm:p-6">
+          <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-earth p-5 sm:p-6">
             <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Lifestyle</p>
             <h1 className="font-heading mt-2 text-4xl leading-tight sm:text-5xl">
               The lifestyle layer behind the protocol
@@ -72,7 +72,7 @@ export default function LifestylePage() {
           {rituals.map((item) => (
             <article
               key={item.title}
-              className="hero-glass-card ring-glow rounded-[20px] border border-white/14 bg-[#102622] p-4"
+              className="hero-glass-card ring-glow rounded-[20px] border border-white/14 bg-olive p-4"
             >
               <h2 className="font-heading text-2xl">{item.title}</h2>
               <p className="mt-2 text-sm text-cream/82">{item.line}</p>
@@ -105,7 +105,7 @@ export default function LifestylePage() {
       </section>
 
       <section className="section-shell pt-0">
-        <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-[#102622] p-5 sm:p-6">
+        <article className="hero-glass-card ring-glow rounded-[24px] border border-white/14 bg-olive p-5 sm:p-6">
           <p className="font-heading text-[11px] tracking-[0.2em] uppercase text-sage">Pipeline</p>
           <h2 className="font-heading mt-2 text-3xl sm:text-4xl">Member map is in the pipeline</h2>
           <p className="mt-2 max-w-3xl text-sm text-cream/80">
