@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cardo, Marcellus } from "next/font/google";
+import PageTransition from "@/components/page-transition";
 import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
 import "./globals.css";
@@ -34,7 +35,7 @@ export default function RootLayout({
           <div className="tech-grid pointer-events-none fixed inset-0 -z-20" />
           <div className="pointer-events-none fixed inset-x-0 top-0 -z-10 h-[28rem] bg-[radial-gradient(circle_at_top,rgba(206,208,186,0.58),transparent_62%)]" />
           <SiteHeader />
-          {children}
+          <PageTransition>{children}</PageTransition>
           <SiteFooter />
         </div>
       </body>

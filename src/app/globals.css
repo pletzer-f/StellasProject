@@ -130,6 +130,59 @@ body {
   animation-play-state: paused;
 }
 
+.route-transition-root {
+  position: relative;
+  isolation: isolate;
+}
+
+.route-frame {
+  animation: route-enter 0.52s cubic-bezier(0.22, 0.84, 0.2, 1) both;
+  transform-origin: 50% 10%;
+}
+
+.route-curtain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  opacity: 0;
+  background:
+    radial-gradient(circle at 18% 8%, rgb(206 208 186 / 0.2), transparent 42%),
+    linear-gradient(180deg, rgb(6 43 39 / 0.08), rgb(6 43 39 / 0.12));
+  transition: opacity 0.28s ease;
+}
+
+.route-progress {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  height: 2px;
+  width: 100%;
+  transform-origin: left;
+  transform: scaleX(0.08);
+  opacity: 0;
+  background: linear-gradient(90deg, rgb(76 76 40 / 0.35), rgb(6 43 39 / 0.95), rgb(185 167 131 / 0.44));
+  transition: opacity 0.2s ease, transform 0.45s cubic-bezier(0.2, 0.86, 0.24, 1);
+}
+
+.route-is-changing .route-frame {
+  opacity: 0.42;
+  transform: translateY(8px) scale(0.996);
+  filter: blur(0.9px);
+  transition: opacity 0.24s ease, transform 0.24s ease, filter 0.24s ease;
+}
+
+.route-is-changing .route-curtain {
+  opacity: 1;
+}
+
+.route-is-changing .route-progress {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
 @keyframes floaty {
   0%,
   100% {
@@ -168,5 +221,18 @@ body {
   }
   to {
     transform: translateX(-50%);
+  }
+}
+
+@keyframes route-enter {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.997);
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
   }
 }
